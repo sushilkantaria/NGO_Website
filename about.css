@@ -1,0 +1,143 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* About Section */
+  .about-section {
+    text-align: center;
+    height: 300px;
+    padding: 2rem;
+    position: relative;
+    width: 100%;
+    background-image: url('./images/about.jpeg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+  }
+  
+  .about-section h1 {
+    font-size: 2.5rem;
+    color: #00539C;
+    margin-bottom: 1rem;
+  }
+  
+  .about-section p {
+    color: #f1f5ed;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Mission and Vision Sections */
+  .mission-vision {
+    margin: 0px 190px 0px 190px; 
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 1rem;
+    background: #fff;
+  }
+  
+  .mission, .vision {
+    width: 40%;
+    background: #F2F2F2;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .mission h2, .vision h2 {
+    color: #00539C;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .mission p, .vision p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* What We Do Section */
+  .what-we-do {
+    background-color: #F9F9F9;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .what-we-do h2 {
+    font-size: 2.5rem;
+    color: #00539C;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 1.5rem;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card i {
+    font-size: 2.5rem;
+    color: #FF5C39;
+    margin-bottom: 1rem;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    color: #00539C;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  /* Footer */
+  /* footer {
+    background-color: #00539C;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer .footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  footer .footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer .footer-nav li a:hover {
+    text-decoration: underline;
+  }
+   */
